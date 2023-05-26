@@ -1,25 +1,12 @@
-import React,  { useState } from "react";
+import React, { useState } from 'react';
 
-
-
-
-
-
-
-import "./Achievements.css";
-
-
-
+import './Achievements.css';
 
 const Achievements = () => {
-  
     return (
         <div>
-             <p>Achievements</p>
-        
+            <p>Achievements</p>
         </div>
-
     );
 };
 export default Achievements;
-
