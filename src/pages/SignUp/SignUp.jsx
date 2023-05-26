@@ -1,25 +1,12 @@
-import React,  { useState } from "react";
+import React, { useState } from 'react';
 
-
-
-
-
-
-
-import "./SignUp.css";
-
-
-
+import './SignUp.css';
 
 const SignUp = () => {
-  
     return (
         <div>
-          
-        
+            <h2>Sign up</h2>
         </div>
-
     );
 };
 export default SignUp;
-

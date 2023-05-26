@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-import FormDonate from '../../../../FormDonate/FormDonate';
+// import FormDonate from '../../../../FormDonate/FormDonate';
 
 import './Footer.css';
 
 const Footer = () => {
     return (
         <div>
-            <FormDonate />
+            {/* <FormDonate /> */}
             <footer>
                 <p>Footer</p>
             </footer>
