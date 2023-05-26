@@ -1,28 +1,23 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { publicRoutes } from './routes';
 
-import {
- 
-  Routes,
-  Route, Redirect,Navigate
-} from "react-router-dom";
-import LayoutNavigation from "./LayoutNavigation/LayoutNavigation";
-import Home from "./Home/Home";
-import React, { Component }  from 'react';
+import { DefaultLayout } from './components/Layout';
 
+import React from 'react';
 
 const App = () => {
-
-
-  return (
-  
-      <Routes>
-        <Route path="/" element={<LayoutNavigation />}>
-          <Route index element={<Home />} />
-
-
-        </Route>
-      </Routes>
-    
-  );
+    return (
+        // <Router>
+        <div className="App">
+            <Routes>
+                {publicRoutes.map((route, index) => {
+                    const Page = route.component;
+                    return <Route key={index} path={route.path} element={<Page />} />;
+                })}
+            </Routes>
+        </div>
+        // </Router>
+    );
 };
 
 export default App;
