@@ -1,0 +1,120 @@
+.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 1036px;
+    background-color: #fff6e7;
+    opacity: 0.85;
+}
+.content {
+    position: absolute;
+    width: 1498px;
+    height: 910px;
+    left: 0px;
+    top: 146px;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 40px;
+    color: var(--slight-primary-color--);
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select {
+    display: block;
+    width: 787px;
+    height: 66px;
+    padding: 12px 20px;
+    background: #ffffff;
+    border: 1px solid #ccc4c0;
+    border-radius: 15px;
+    appearance: none;
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: var(--primary-color--);
+}
+
+// input[type='file']::-webkit-file-upload-button {
+//     visibility: hidden;
+// }
+input[type='file']::file-selector-button {
+    margin-right: 20px;
+    margin-left: 10px;
+    border: none;
+    background: var(--primary-color--);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+input[type='file'] {
+    content: 'Select image file';
+    display: inline-block;
+    align-content: left;
+    // background: #ffffff;
+    border: 1px solid #999;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 0px;
+    outline: none;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 70%;
+}
+
+input[type='file']::file-selector-button:hover {
+    background-color: #288208;
+}
+input[type='file']:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+label {
+    width: auto;
+    height: 38px;
+    align-items: stretch;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #ffffff;
+}
+.form-donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 805px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 787px;
+    height: 112px;
+}
+select {
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+}
+
+.item-select {
+    position: relative;
+}
