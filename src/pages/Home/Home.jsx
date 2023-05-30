@@ -21,7 +21,7 @@ const Home = () => {
             <Achievements />
             <Projects />
             <FormDonate />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };

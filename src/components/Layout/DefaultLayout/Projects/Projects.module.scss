@@ -31,9 +31,6 @@
     padding: 44px;
     gap: 52px;
     position: relative;
-    // --slide-index: 0;
-    // transform: translateX(calc(var(--slide-index) * -100%));
-    // transform: translateX(calc(100% - 387px * 5));
 }
 .project_item {
     background-color: var(--primary-color--);
@@ -109,6 +106,7 @@
     text-align: center;
     color: #ffffff;
     padding-top: 14px;
+    margin: 0;
 }
 
 @media screen and (max-width: 9000px) {
