@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import blob from '../../../../svg/2xblob.svg';
 import earth from '../../../../svg/2xearth.svg';
-
-import './Header.css';
+import styles from './Header.css';
+import classNames from 'classnames/bind';
+const cx = classNames.bind(styles);
 
 const Header = () => {
     return (
@@ -16,7 +17,19 @@ const Header = () => {
                             <p id="blobContent">
                                 Join us in creating a greener future by donating towards tree planting projects.
                             </p>
-                            <button className="button">Join us now!</button>
+                            <button
+                                className={cx('btn-join', 'btn')}
+                                style={{
+                                    width: '231px',
+                                    height: '82px',
+                                    color: '#5F8D4E',
+                                    margin: '0px',
+
+                                    transform: 'translate(50%, 0px)',
+                                }}
+                            >
+                                Join us now!
+                            </button>
                         </div>
                     </div>
 
