@@ -7,7 +7,6 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <FormDonate />
             <footer>
                 <p>Footer</p>
             </footer>
