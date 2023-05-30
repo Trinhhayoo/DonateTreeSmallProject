@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand';
+}
+p {
+    text-align: justify;
+    padding: 0;
+    margin-top: 0;
+}
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #285430;
+}
+.aboutUsContent {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: justify;
+    color: #285430;
+}
+.coreValuesTitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: #285430;
+}
+.coreValuesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coreValuesContent {
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #285430;
+}
+.numBlob {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+.plant {
+    width: 30%;
+    padding: 20px;
+}
+.imageContainer {
+    text-align: center;
+}
+
+#aboutUs {
+    background-color: #fff6e7;
+    padding: 20px 100px 20px 100px;
+    color: #285430;
+}
+#rightBlob {
+    position: absolute;
+    width: 254px;
+    height: 217px;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+#leftBlob {
+    position: absolute;
+    width: 254px;
+    height: 217px;
+    left: -2%;
+    transform: translate(-50%, -50%);
+}
+#coreValues {
+    background-color: #ffffff;
+    padding: 20px 100px 20px 100px;
+    color: #285430;
+}
+#rightLogo {
+    color: #285430;
+    font-weight: bold;
+    width: 90px;
+    height: 104px;
+    margin-left: 50px;
+}
+#leftLogo {
+    color: #285430;
+    font-weight: bold;
+    width: 90px;
+    height: 104px;
+    margin-right: 50px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
