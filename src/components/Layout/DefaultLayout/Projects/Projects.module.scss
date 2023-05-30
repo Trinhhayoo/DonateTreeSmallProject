@@ -1,0 +1,121 @@
+.wrapper {
+    width: 1440px;
+    height: 792px;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.title {
+    margin: auto 150px;
+}
+.logo {
+    width: 90px;
+    height: 104px;
+}
+.logo-revert {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.logo-img {
+    color: var(--slight-primary-color--);
+}
+.project_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+    gap: 52px;
+    position: relative;
+    // --slide-index: 0;
+    // transform: translateX(calc(var(--slide-index) * -100%));
+    // transform: translateX(calc(100% - 387px * 5));
+}
+.project_item {
+    background-color: var(--primary-color--);
+
+    align-items: flex-start;
+    padding: 15px;
+    width: 388px;
+    height: 486px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+.project {
+    position: relative;
+}
+.btn-arrow {
+    // width: 97.03px;
+    // height: 96px;
+    cursor: pointer;
+    // color: transparent;
+    border-radius: 15px;
+    border: transparent;
+    z-index: 2;
+}
+.btn-arrow :hover {
+    // opacity: 0.9;
+    // transform: scale(1.1);
+}
+.arrow {
+    width: 97.03px;
+    height: 96px;
+    background: #ffffff;
+    border-radius: 15px;
+    transition: background 200ms ease-in-out;
+}
+.arrow:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+.btn-arrow-left {
+    position: absolute;
+    top: 42%;
+    left: 1%;
+}
+.btn-arrow-right {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+}
+.project-img-wrapper {
+    width: 358px;
+    height: 386px;
+}
+
+.project-img {
+    width: 358px;
+    height: 386px;
+    align-self: stretch;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 14px;
+}
+
+@media screen and (max-width: 9000px) {
+    .project_item {
+    }
+}
+@media screen and (max-width: 9000px) {
+    .project_item {
+    }
+}

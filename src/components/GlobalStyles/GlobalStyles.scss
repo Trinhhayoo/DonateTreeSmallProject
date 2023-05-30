@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --primary-color--: 5F8D4E;
-
+    --primary-color--: #5f8d4e;
+    --slight-primary-color--: #a4be7b;
+    --title-primary-color--: #285430;
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
@@ -24,4 +25,41 @@ body {
     font-size: 3.2rem;
     text-rendering: optimizeSpeed;
     line-height: 4;
+}
+
+.title-session {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+
+    text-align: center;
+    padding-top: 25px;
+    color: var(--title-primary-color--);
+}
+.btn {
+    font-family: 'Quicksand';
+    font-style: normal;
+
+    width: 137px;
+    height: 67px;
+
+    background: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+
+    text-align: center;
+    cursor: pointer;
+    color: #245b3c;
+}
+
+.btn:hover {
+    opacity: 0.99;
+    background-color: #ccc;
 }

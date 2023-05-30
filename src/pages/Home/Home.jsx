@@ -8,7 +8,7 @@ import Projects from '../../components/Layout/DefaultLayout/Projects/Project';
 import Footer from '../../components/Layout/DefaultLayout/Footer/Footer';
 
 import './Home.css';
-import SignUp from '../SignUp/SignUp';
+import FormDonate from '../../components/Layout/DefaultLayout/FormDonate/FormDonate';
 
 const Home = () => {
     return (
@@ -20,8 +20,8 @@ const Home = () => {
             {/* <div className="CoreValue"></div> */}
             <Achievements />
             <Projects />
-            <SignUp />
-            <Footer />
+            <FormDonate />
+            {/* <Footer /> */}
         </div>
     );
 };
