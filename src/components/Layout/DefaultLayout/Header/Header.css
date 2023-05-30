@@ -1,8 +1,9 @@
+* {
+    font-family: 'Quicksand';
+}
 section {
     margin: 0;
     padding: 0;
-}
-.btn-join {
 }
 p {
     text-align: justify;
