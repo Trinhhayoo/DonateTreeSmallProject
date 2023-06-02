@@ -11,7 +11,6 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <FormDonate />
             <footer className="foter">
                 <div className="information-container">
                     <div className="inside-container">
