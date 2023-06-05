@@ -153,7 +153,9 @@
        background-color: white ;
        width: 90%;
        bottom: 50px;
-       margin-left:50px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+       text-align: center;
 
     }
     .bottom-line{

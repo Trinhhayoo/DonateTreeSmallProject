@@ -65,3 +65,27 @@ body {
     opacity: 0.99;
     background-color: #ccc;
 }
+.slick-prev {
+    left: 25px;
+    z-index: 100;
+}
+.slick-next {
+    right: 25px;
+}
+.slick-dots {
+    width: 50%;
+}
+.center .slick-center img {
+    transform: scale(1.2);
+    transition: all 1000ms ease-in-out;
+    margin-left: auto; 
+    margin-right: auto;
+z-index: 100;
+}
+.center .project_item {
+    transition: transform 0.5s;
+}
+.slick-slide.slick-center img {
+    transform: scale(1.1);
+}
+
