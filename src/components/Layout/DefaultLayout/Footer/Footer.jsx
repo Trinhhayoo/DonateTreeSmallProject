@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import mail from '../../../../svg/2xmail.svg';
 import locate from '../../../../svg/2xlocate.svg';
 import logo from '../../../../svg/2xlogo.svg';
+import facebook from '../../../../svg/facebook.svg';
+import instagram from '../../../../svg/instagram.svg';
 
 import './Footer.css';
 
@@ -19,7 +21,7 @@ const Footer = () => {
                                     <img className=" logo-footer" src={logo} />
                                 </span>
 
-                                <h3 className="title-project">GREENGROW</h3>
+                                <h3 className="title-project">GreenGrow</h3>
 
                                 <br />
                                 <br />
@@ -29,20 +31,23 @@ const Footer = () => {
                                 <h2 className=" title-foter">Contact</h2>
                                 <ul className="info">
                                     <li className="each-info">
-                                        <span>
-                                            <img className=" ic-footer img-dc " src={locate} />
-                                        </span>
-                                        <p className="foter-ic foter-dc">
+                                        
+                                            <img className="  img-dc " src={locate} />
+                                            
+                                        <p className="address-text">
                                             227 Nguyen Van Cu, district 5, Ho Chi Minh City
                                         </p>
+                                    
                                     </li>
 
                                     <li className="each-info">
-                                        <span>
-                                            <img className="ic-footer img-mail " src={mail} />
-                                        </span>
-                                        <p className="foter-ic foter-mail">Greengrow@gmail.com</p>
+                                       
+                                            <img className=" img-mail " src={mail} />
+                                            
+                                        <p className="mail-text">Greengrow@gmail.com</p>
+                                        
                                     </li>
+
                                 </ul>
                             </div>
                             <div className="Company">
@@ -63,9 +68,11 @@ const Footer = () => {
                             </div>
                             <div className="line" />
                             <div className="bottom-line">
-                                <span>
-                                    <p>@Allright reserve 2022</p>
-                                </span>
+                            
+                                    <p className='alright-text'>@Allright reserve 2022</p>
+                                    <img className=" img-fb " src={facebook} />
+                                    <img className=" img-ig" src={instagram} />
+                                
                             </div>
                         </div>
                     </div>

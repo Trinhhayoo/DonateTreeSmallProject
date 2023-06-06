@@ -141,7 +141,7 @@ const Projects = () => {
           className={cx('project_list')}
          
       >
-          <div className={cx('project_item')}>
+          <div  className={cx('project_item')}>
               <div className={cx('project-img-wrapper')}>
                   <img src={projectItem} alt="" className={cx('project-img')} />
               </div>
