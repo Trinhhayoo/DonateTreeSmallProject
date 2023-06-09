@@ -20,6 +20,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -78,9 +79,9 @@ body {
 .center .slick-center img {
     transform: scale(1.2);
     transition: all 1000ms ease-in-out;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
-z-index: 100;
+    z-index: 100;
 }
 .center .project_item {
     transition: transform 0.5s;
@@ -88,4 +89,3 @@ z-index: 100;
 .slick-slide.slick-center img {
     transform: scale(1.1);
 }
-

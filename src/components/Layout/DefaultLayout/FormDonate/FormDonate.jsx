@@ -32,7 +32,7 @@ const FormDonate = () => {
         // console.log(inputs);
     };
     return (
-        <div className={cx('wrapper')}>
+        <div id="form" className={cx('wrapper')}>
             <h2 className={cx('title-session', 'title')}>Let’s join with us now</h2>
             <div className={cx('content')} style={{ backgroundImage: `url(${background})` }}>
                 <form className={cx('form-donate')} onSubmit={handleSubmit}>

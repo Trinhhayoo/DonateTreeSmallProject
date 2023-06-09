@@ -1,47 +1,48 @@
-import {useEffect} from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import './Navigate.css';
 import logo from '../../../../svg/2xlogo.svg';
 
 function Navigate() {
     useEffect(() => {
-        // 👇️ scroll to top on page load
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
+
+    const [showNavbar, setShowNavbar] = useState(false);
+
+    const handleShowNavbar = () => {
+        setShowNavbar(!showNavbar);
+    };
+
     return (
         <nav className="navbarItems">
-            <ul>
-                <li>
-                    <a onClick={() => {
-          window.scrollTo({top: 1400, behavior: 'smooth'});
-        }}
-                    >Donate</a>
-                </li>
-                <li>
-                    <a onClick={() => {
-          window.scrollTo({top: 3500, behavior: 'smooth'});
-        }}
-                    >
-                        Projects</a>
-                </li>
-                <li>
-                    <a onClick={() => {
-          window.scrollTo({top: 2800, behavior: 'smooth'});
-        }}
-                    >Achievements</a>
-                </li>
-                <li>
-                    <a onClick={() => {
-          window.scrollTo({top: 850, behavior: 'smooth'});
-        }}
-                    >About us</a>
-                </li>
-                <li style={{ float: 'left' }}>
-                    <a>
+            <div className="container">
+                <div className="logo">
+                    <a href="#header">
                         <img id="logo" src={logo} />
                         <> </>GreenGrow
                     </a>
-                </li>
-            </ul>
+                </div>
+                <div className="menu-icon" onClick={handleShowNavbar}>
+                    <img style={{ width: '30px' }} src={logo} />
+                </div>
+                <div className={`itemContainer  ${showNavbar && 'active'}`}>
+                    <ul className="itemList">
+                        <li className="item">
+                            <a href="#aboutUs">About us</a>
+                        </li>
+                        <li className="item">
+                            <a href="#achievements">Achievements</a>
+                        </li>
+                        <li className="item">
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li className="item">
+                            <a href="#form">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     );
 }

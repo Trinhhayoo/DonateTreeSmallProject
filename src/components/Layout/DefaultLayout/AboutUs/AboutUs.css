@@ -10,33 +10,39 @@ p {
 }
 .title {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 38px;
     line-height: 75px;
+    margin-top: 15px;
     text-align: center;
     color: #285430;
+    vertical-align: center;
 }
 .aboutUsContent {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 20px;
     text-align: justify;
     color: #285430;
 }
 .coreValuesTitle {
     margin: 0;
-    font-weight: 700;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 26px;
     display: flex;
     align-items: center;
     color: #285430;
 }
+.logoTitle {
+    display: flex;
+    vertical-align: bottom;
+    justify-content: center;
+}
 .coreValuesContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .coreValuesContent {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     color: #285430;
@@ -53,44 +59,40 @@ p {
 .imageContainer {
     text-align: center;
 }
+.rightLogo {
+    width: 66px;
+    height: 76px;
+    margin-left: 120px;
+}
+.leftLogo {
+    width: 66px;
+    height: 76px;
+    margin-right: 120px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
 #aboutUs {
     background-color: #fff6e7;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 223px 20px 223px;
     color: #285430;
 }
 #rightBlob {
     position: absolute;
-    width: 254px;
-    height: 217px;
-    left: 100%;
+    width: 184px;
+    height: 158px;
+    left: 93.5%;
     transform: translate(-50%, -50%);
 }
 #leftBlob {
     position: absolute;
-    width: 254px;
-    height: 217px;
-    left: -2%;
+    width: 184px;
+    height: 158px;
+    left: 0%;
     transform: translate(-50%, -50%);
 }
 #coreValues {
     background-color: #ffffff;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 120px 20px 120px;
     color: #285430;
-}
-#rightLogo {
-    color: #285430;
-    font-weight: bold;
-    width: 90px;
-    height: 104px;
-    margin-left: 50px;
-}
-#leftLogo {
-    color: #285430;
-    font-weight: bold;
-    width: 90px;
-    height: 104px;
-    margin-right: 50px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
 }

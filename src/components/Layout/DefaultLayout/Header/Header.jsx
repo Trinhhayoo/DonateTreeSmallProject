@@ -7,9 +7,9 @@ const cx = classNames.bind(styles);
 
 const Header = () => {
     return (
-        <div>
+        <div id="header">
             <section>
-                <div className="container">
+                <div className="hero-banner-container">
                     <div className="blob">
                         <img src={blob} />
                         <div className="centered">
@@ -17,19 +17,21 @@ const Header = () => {
                             <p id="blobContent">
                                 Join us in creating a greener future by donating towards tree planting projects.
                             </p>
-                            <button
-                                className={cx('btn-join', 'btn')}
-                                style={{
-                                    width: '231px',
-                                    height: '82px',
-                                    color: '#5F8D4E',
-                                    margin: '0px',
+                            <a href="#form">
+                                <button
+                                    className={cx('btn-join', 'btn')}
+                                    style={{
+                                        width: '231px',
+                                        height: '82px',
+                                        color: '#5F8D4E',
+                                        margin: '0px',
 
-                                    transform: 'translate(50%, 0px)',
-                                }}
-                            >
-                                Join us now!
-                            </button>
+                                        transform: 'translate(50%, 0px)',
+                                    }}
+                                >
+                                    Join us now!
+                                </button>
+                            </a>
                         </div>
                     </div>
 

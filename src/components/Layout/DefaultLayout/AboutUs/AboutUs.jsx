@@ -14,7 +14,15 @@ const AboutUs = () => {
     return (
         <div>
             <section id="aboutUs">
-                <h2 className="title">About us</h2>
+                <div className="logoTitle">
+                    <div>
+                        <img class="leftLogo" src={logo} />
+                    </div>
+                    <h2 className="title">About us</h2>
+                    <div>
+                        <img class="rightLogo" src={logo} />
+                    </div>
+                </div>
                 <img id="rightBlob" src={blob} />
                 <p className="aboutUsContent">
                     Welcome to GreenGrow, an online platform dedicated to making a positive impact on the environment by
@@ -35,10 +43,15 @@ const AboutUs = () => {
             </section>
 
             <section id="coreValues">
-                <h2 className="title">
-                    {' '}
-                    <img id="leftLogo" src={logo} /> Core values <img id="rightLogo" src={logo} />
-                </h2>
+                <div className="logoTitle">
+                    <div>
+                        <img class="leftLogo" src={logo} />
+                    </div>
+                    <h2 className="title"> Core values</h2>
+                    <div>
+                        <img class="rightLogo" src={logo} />
+                    </div>
+                </div>
 
                 <div class="coreValuesContainer">
                     <div className="numBlob">
@@ -90,7 +103,7 @@ const AboutUs = () => {
                     </div>
 
                     <div>
-                        <h4 className="coreValuesTitle">Get Involved</h4>
+                        <h1 className="coreValuesTitle">Get Involved</h1>
                         <p className="coreValuesContent">
                             We organize volunteering events and provide resources for those who wish to engage in tree
                             planting activities firsthand. Together, we can make a tangible difference.
@@ -104,7 +117,7 @@ const AboutUs = () => {
                     </div>
 
                     <div>
-                        <h4 className="coreValuesTitle">Spread the Word</h4>
+                        <h1 className="coreValuesTitle">Spread the Word</h1>
                         <p className="coreValuesContent">
                             Raise awareness about the importance of reforestation and tree planting. Share your
                             contributions and experiences on social media platforms and encourage others to join the
