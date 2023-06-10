@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import React, { useState } from 'react';
-
-import FormDonate from '../../../../FormDonate/FormDonate';
 
 import './Footer.css';
 
@@ -20,9 +17,9 @@ const Footer = () => {
                         <div className="divide-container">
                             <div className="logo-foter">
                                 {/* <img className="logo-footer" src={spalgTS} alt="PUN" /> */}
-                                <span>
+                                {/* <span>
                                    <Icon
-                                </span>
+                                </span> */}
 
                                 <h3 className="title-project">GREENGROW</h3>
 
