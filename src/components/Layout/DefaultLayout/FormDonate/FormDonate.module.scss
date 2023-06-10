@@ -156,19 +156,7 @@ select {
         border-radius: 10px;
         font-size: 12px;
     }
-    .btn-donate {
-        padding: 5px 0px;
-        gap: 5px;
 
-        width: 73px;
-        height: 34px;
-
-        background: #ffffff;
-        border-radius: 10px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-    }
     input[type='file']::file-selector-button {
         height: calc(var(--height-input-file) - 12px);
         font-size: 10px;
