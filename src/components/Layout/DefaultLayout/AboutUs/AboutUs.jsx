@@ -15,15 +15,11 @@ const AboutUs = () => {
         <div>
             <section id="aboutUs">
                 <div className="logoTitle">
-                    <div>
-                        <img class="leftLogo" src={logo} />
-                    </div>
+                    <img className="leftLogo" src={logo} />
                     <h2 className="title">About us</h2>
-                    <div>
-                        <img class="rightLogo" src={logo} />
-                    </div>
+                    <img className="rightLogo" src={logo} />
                 </div>
-                <img id="rightBlob" src={blob} />
+                <img className="rightBlob" src={blob} />
                 <p className="aboutUsContent">
                     Welcome to GreenGrow, an online platform dedicated to making a positive impact on the environment by
                     supporting tree planting initiatives. Our mission is to create a greener future by facilitating the
@@ -34,7 +30,7 @@ const AboutUs = () => {
                     biodiversity, and improving air and water quality. By planting trees, we can combat deforestation,
                     restore ecosystems, and create sustainable environments for future generations.
                 </p>
-                <img id="leftBlob" src={blob} />
+                <img className="leftBlob" src={blob} />
                 <div className="imageContainer">
                     <img className="plant" src={plant} />
                     <img className="plant" src={plant} />
@@ -43,14 +39,11 @@ const AboutUs = () => {
             </section>
 
             <section id="coreValues">
+                <img className="left-blob-core-value" src={blob} />
                 <div className="logoTitle">
-                    <div>
-                        <img class="leftLogo" src={logo} />
-                    </div>
+                    <img className="leftLogo" src={logo} />
                     <h2 className="title"> Core values</h2>
-                    <div>
-                        <img class="rightLogo" src={logo} />
-                    </div>
+                    <img className="rightLogo" src={logo} />
                 </div>
 
                 <div class="coreValuesContainer">
@@ -67,7 +60,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-
+                <img className="right-blob-core-value" src={blob} />
                 <div class="coreValuesContainer">
                     <div className="numBlob">
                         <img src={numList2} />
@@ -96,7 +89,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-
+                <img className="left-blob-core-value" src={blob} />
                 <div class="coreValuesContainer">
                     <div className="numBlob">
                         <img src={numList4} />
@@ -125,6 +118,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
+                <img className="right-blob-core-value" src={blob} />
             </section>
         </div>
     );
