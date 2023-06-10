@@ -1,6 +1,5 @@
 import styles from './Projects.module.scss';
 import classNames from 'classnames/bind';
-import logo from '../../../../svg/2xlogo.svg';
 import projectItem from '../../../../image/plant_offer.jpg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import arrow from './arrow.svg';
@@ -9,7 +8,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { dataDigitalBestSeller } from './data';
-import MyLogo from '../../../GlobalStyles/MyLogo';
+import Title from '../../../GlobalStyles/title-session';
 // import {BsArrowLeft, BsArrowRight} from 'react-icons/bs';
 
 // import { faCircleArrowLeft, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -120,16 +119,17 @@ const Projects = () => {
     };
     return (
         <div>
-            <div className={cx('header')}>
+            {/* <div className={cx('header')}>
                 <div className={cx('logo', 'logo-revert')}>
-                    {/* <img className={cx('logo-img')} src={logo} alt="" style={{ fill: 'rgb(164, 190, 12' }} /> */}
+                    
                     <MyLogo name="wifi" fill="#5F8D4E" />
                 </div>
                 <h2 className={cx('title-session', 'title')}>Projects</h2>
                 <div className={cx('logo')}>
                     <MyLogo name="wifi" fill="#5F8D4E" />
                 </div>
-            </div>
+            </div> */}
+            <Title title={'Project'} />
             <Slider {...settings}>
                 {dataDigitalBestSeller.map((item) => (
                     <div className={cx('project_list')}>

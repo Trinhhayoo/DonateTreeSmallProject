@@ -1,28 +1,54 @@
 .wrapper {
     position: relative;
-    height: 680px;
+    height: 727px;
     background-color: #fff6e7;
 }
 
 .blob1 {
     position: absolute;
-    width: 254px;
-    height: 217px;
-    left: -66px;
-    top: 58px;
+    width: 111px;
+    height: 95px;
+    left: 23px;
+    top: 87px;
+    height: 92.66590118408203px;
+    width: 106.4143295288086px;
 }
 .blob2 {
     position: absolute;
-    width: 254px;
-    height: 217px;
-    left: 1287px;
-    top: 0px;
+    width: 116px;
+    height: 98px;
+    left: 1281px;
+    top: 617px;
+    height: 95.59219360351562px;
+    width: 111.207763671875px;
 }
 
-.plantTree {
-    position: absolute;
-    width: 224px;
-    height: 253px;
-    left: 61px;
-    top: 372px;
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart {
+    height: 369.739990234375px;
+    width: 369.739990234375px;
+}
+.title-achieve {
+    margin-bottom: 45px;
+}
+@media (max-width: 739px) {
+    .wrapper {
+        height: 492px;
+        width: 375px;
+    }
+    .title-achieve {
+        padding-top: 40px;
+    }
+    .blob1,
+    .blob2 {
+        display: none;
+    }
+    .chart {
+        height: 230px;
+        width: 230px;
+    }
 }

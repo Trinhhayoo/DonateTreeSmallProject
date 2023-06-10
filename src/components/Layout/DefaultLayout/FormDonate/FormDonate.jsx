@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from './FormDonate.module.scss';
-import './responsive.module.scss';
 import classNames from 'classnames/bind';
 import background from '../../../../image/closeup-shot-small-green-leaves-bush.jpg';
 
