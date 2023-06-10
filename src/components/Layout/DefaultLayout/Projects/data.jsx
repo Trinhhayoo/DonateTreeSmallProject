@@ -1,38 +1,38 @@
-export const dataDigitalBestSeller = [
+import image from  '../../../../image/plant_offer.jpg';
+export const data = [
     {
       id: 1,
-      title: 'Dự án trồng 1000 cây xanh ở Bình Phước',
+      title: 'Trees- Planting Project in Binh Phuoc',
       
       linkImg:
-        '../../../../image/plant_offer.jpg',
+      image ,
     },
     {
         id: 2,
-        title: 'Dự án trồng 1000 cây xanh ở Bình Phước',
+        title: 'Trees- Planting Project in Quang Ninh',
         
         linkImg:
-          '../../../../image/plant_offer.jpg',
+        image ,
       },
     {
         id: 3,
-        title: 'Dự án trồng 1000 cây xanh ở Bình Phước',
+        title: 'Trees- Planting Project in Soc Trang',
         
         linkImg:
-          '../../../../image/plant_offer.jpg',
+        image ,
       },
       {
         id: 4,
-        title: 'Dự án trồng 1000 cây xanh ở Bình Phước',
-        
+        title: 'Trees- Planting Project in Ben Tre',
         linkImg:
-          '../../../../image/plant_offer.jpg',
+        image ,
       },
       {
         id: 5,
-        title: 'Dự án trồng 1000 cây xanh ở Bình Phước',
+        title: 'Trees- Planting Project in Tay Ninh',
         
         linkImg:
-          '../../../../image/plant_offer.jpg',
+        image ,
       },
    
   ];

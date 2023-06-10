@@ -2,8 +2,9 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .wrapper {
-    width: 1440px;
-    height: 792px;
+    width: 100%;
+    
+    height: 643px;
     background-color: #fff;
 }
 
@@ -11,6 +12,7 @@
     display: flex;
     justify-content: center;
     margin-top: 36px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -40,8 +42,8 @@
 
     align-items: flex-start;
     padding: 15px;
-    width: 388px;
-    height: 486px;
+    width: 200px;
+    height: 300px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 
@@ -90,17 +92,18 @@
     right: 1%;
 }
 .project-img-wrapper {
-    width: 358px;
-    height: 386px;
+    width: 200px !important;
+    height: auto;
 }
 
 .project-img {
-    width: 358px;
-    height: 386px;
+    width: 160px;
+    height: 100px;
     align-self: stretch;
     object-fit: cover;
     border-radius: 15px;
     transition: transform 1s;
+    z-index: 100;
 }
 
 .project-title {
@@ -126,4 +129,14 @@
 }
 .project_list {
     perspective: 100%;
+}
+// .wrap-slide {
+//     margin-right: 0px;
+//     // width: 359px;
+// }
+.trending-img {
+    height: 267px;
+}
+.content-slide {
+    font-size: 5px;
 }
