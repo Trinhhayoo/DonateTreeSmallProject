@@ -1,0 +1,15 @@
+// Mobile & Tablet
+@media screen and (max-width: 1023px) {
+    .title,
+    .title-session {
+        font-size: 18px;
+    }
+}
+
+// Tablet
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+// Mobile
+@media (max-width: 739px) {
+}

@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 
 const Achievements = () => {
     return (
-        <div className={cx('wrapper')}>
+        <div className={cx('section', 'wrapper')}>
             <h2 className={cx('title-session')}>Achievements</h2>
             <div className={cx('Blob')}>
                 <img src={blob} alt="blob1" className={cx('blob', 'blob1')} />

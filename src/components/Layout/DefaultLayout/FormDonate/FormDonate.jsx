@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import styles from './FormDonate.module.scss';
+import './responsive.module.scss';
 import classNames from 'classnames/bind';
 import background from '../../../../image/closeup-shot-small-green-leaves-bush.jpg';
 
@@ -33,9 +35,12 @@ const FormDonate = () => {
     };
     return (
         <div className={cx('wrapper')}>
-            <h2 className={cx('title-session', 'title')}>Let’s join with us now</h2>
-            <div className={cx('content')} style={{ backgroundImage: `url(${background})` }}>
-                <form className={cx('form-donate')} onSubmit={handleSubmit}>
+            <h2 className={cx('title', 'section', 'title-session')}>Let’s join with us now</h2>
+            <div className={cx('section', 'content')} style={{ backgroundImage: `url(${background})` }}>
+                <form
+                    className={cx('col-lg-8', 'offset-lg-2', 'custom-column-space', 'col-sm-12', 'form-donate')}
+                    onSubmit={handleSubmit}
+                >
                     <div className={cx('item')}>
                         <label>Name</label>
                         <input type="text" value={Name} onChange={(e) => setName(e.target.value)} />
@@ -71,7 +76,7 @@ const FormDonate = () => {
                             accept="image/png, image/jpeg"
                         />
                     </div>
-                    <button className={cx('btn', ' btn-donate')} onClick={handleSubmit}>
+                    <button className={cx('btn', 'btn-donate')} onClick={handleSubmit}>
                         Donate
                     </button>
                 </form>
