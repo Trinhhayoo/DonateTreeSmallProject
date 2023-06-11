@@ -11,16 +11,15 @@ p {
 }
 
 .hero-banner-container {
+    width: 1440px;
     color: white;
     display: table;
     align-items: center;
     padding: 60px 120px 60px 120px;
-    gap: 79px;
     overflow: hidden;
 }
 .blob {
     float: left;
-    width: 50%;
     position: relative;
     width: 574px;
     height: 510px;
@@ -60,9 +59,9 @@ p {
     float: right;
     flex-direction: column;
     align-items: center;
-    padding-left: 120px;
-    width: 545px;
-    height: 549px;
+    padding-left: 58px;
+    width: 512px;
+    height: 505px;
 }
 #earthImage {
     width: 394px;
