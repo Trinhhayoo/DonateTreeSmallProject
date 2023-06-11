@@ -21,11 +21,11 @@ const Header = () => {
                                 <button
                                     className={cx('btn-join', 'btn')}
                                     style={{
-                                        width: '231px',
-                                        height: '82px',
+                                        width: '205px',
+                                        height: '64px',
                                         color: '#5F8D4E',
                                         margin: '0px',
-
+                                        fontWeight: '700',
                                         transform: 'translate(50%, 0px)',
                                     }}
                                 >

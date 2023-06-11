@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import logo from '../../../../svg/2xlogo.svg';
 import blob from '../../../../svg/2xblob.svg';
-import plant from '../../../../image/plant_offer.jpg';
+import plant1 from '../../../../image/about1.jpg';
+import plant2 from '../../../../image/about2.jpg';
+import plant3 from '../../../../image/about3.jpg';
 import numList1 from '../../../../svg/numList_1.svg';
 import numList2 from '../../../../svg/numList_2.svg';
 import numList3 from '../../../../svg/numList_3.svg';
@@ -32,9 +34,9 @@ const AboutUs = () => {
                 </p>
                 <img className="leftBlob" src={blob} />
                 <div className="imageContainer">
-                    <img className="plant" src={plant} />
-                    <img className="plant" src={plant} />
-                    <img className="plant" src={plant} />
+                    <img className="plant" src={plant1} />
+                    <img className="plant" src={plant2} />
+                    <img className="plant" src={plant3} />
                 </div>
             </section>
 
