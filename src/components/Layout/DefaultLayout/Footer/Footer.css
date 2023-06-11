@@ -275,6 +275,11 @@ bottom: 34px !important;
   top: 60px;
 
 }
+.copyright-ic {
+  z-index: 1000;
+  width: 10px;
+  height:auto;
+}
 
 .each-info {
   float: unset !important;

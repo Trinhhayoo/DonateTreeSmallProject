@@ -5,6 +5,7 @@ import locate from '../../../../svg/2xlocate.svg';
 import logo from '../../../../svg/2xlogo.svg';
 import facebook from '../../../../svg/facebook.svg';
 import instagram from '../../../../svg/instagram.svg';
+import copyright from '../../../../image/copyright.png';
 
 import './Footer.css';
 
@@ -75,8 +76,8 @@ const Footer = () => {
 
                     <div className="line" />
                     <div className="bottom-line">
-
-                        <p className='alright-text'>@Allright reserve 2022</p>
+                   
+                        <p className='alright-text'>© Allright reserved 2022</p>
                         <img className=" img-fb " src={facebook} />
                         <img className=" img-ig" src={instagram} />
 
