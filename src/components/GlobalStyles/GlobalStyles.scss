@@ -39,19 +39,19 @@ body {
     padding-right: 120px;
 }
 
-// .title-session {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 38px;
-//     line-height: 45.7px;
+.title-session {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45.7px;
 
-//     text-align: center;
-//     padding-top: 25px;
-//     color: var(--title-primary-color--);
-// }
+    text-align: center;
+    padding-top: 25px;
+    color: var(--title-primary-color--);
+}
 .btn {
     font-family: 'Quicksand';
     font-style: normal;
@@ -122,21 +122,21 @@ body {
         font-size: 16px;
         line-height: 20px;
     }
+    .title-session {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        text-align: center;
+        padding-top: 25px;
+        color: var(--title-primary-color--);
+    }
 }
 
-.title-session {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-
-    text-align: center;
-    padding-top: 25px;
-    color: var(--title-primary-color--);
-}
 // .btn {
 //     font-family: 'Quicksand';
 //     font-style: normal;

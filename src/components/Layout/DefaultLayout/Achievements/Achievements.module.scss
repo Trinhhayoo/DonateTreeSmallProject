@@ -29,12 +29,57 @@
     justify-content: center;
 }
 .chart {
-    height: 369.739990234375px;
-    width: 369.739990234375px;
+    width: 100%;
+    // height: 580px;
 }
 .title-achieve {
     margin-bottom: 45px;
 }
+.chartBox {
+    height: 429.739990234375px;
+    // width: 369.739990234375px;
+
+    // height: 230px;
+    // padding: 20px;
+    // border-radius: 20px;
+    // border: solid 3px rgba(255, 26, 104, 1);
+    // background: white;
+}
+.title-chart {
+    width: 389px;
+    // height: 69px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #285430;
+    margin: auto;
+    text-shadow: 0px 4px 4px #ffffff;
+    padding-bottom: 61px;
+}
+
+.chartMenu {
+    width: 100vw;
+    height: 40px;
+    background: #1a1a1a;
+    color: rgba(255, 26, 104, 1);
+}
+.chartMenu {
+    padding: 10px;
+    font-size: 20px;
+}
+.chartCard {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    background: rgba(255, 26, 104, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 739px) {
     .wrapper {
         height: 492px;
@@ -47,8 +92,38 @@
     .blob2 {
         display: none;
     }
-    .chart {
-        height: 230px;
-        width: 230px;
+    .chartBox {
+        height: 290px;
+    }
+    .title-chart {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 19px;
+        width: 222px;
+        height: 44px;
+
+        padding-bottom: 40px;
+    }
+    .box-chart {
+        width: 288px;
+        height: 48px;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid #a4be7b;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 5px;
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .box-chart-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #285430;
+    }
+    .content {
+        flex-direction: column;
     }
 }
