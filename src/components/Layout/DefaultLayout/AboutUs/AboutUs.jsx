@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import logo from '../../../../svg/2xlogo.svg';
 import blob from '../../../../svg/2xblob.svg';
-import plant from '../../../../image/plant_offer.jpg';
+import plant1 from '../../../../image/about1.jpg';
+import plant2 from '../../../../image/about2.jpg';
+import plant3 from '../../../../image/about3.jpg';
 import numList1 from '../../../../svg/numList_1.svg';
 import numList2 from '../../../../svg/numList_2.svg';
 import numList3 from '../../../../svg/numList_3.svg';
@@ -16,8 +18,12 @@ const AboutUs = () => {
     return (
         <div>
             <section id="aboutUs">
-                <h2 className="title">About us</h2>
-                <img id="rightBlob" src={blob} />
+                <div className="logoTitle">
+                    <img className="leftLogo" src={logo} />
+                    <h2 className="title">About us</h2>
+                    <img className="rightLogo" src={logo} />
+                </div>
+                <img className="rightBlob" src={blob} />
                 <p className="aboutUsContent">
                     Welcome to GreenGrow, an online platform dedicated to making a positive impact on the environment by
                     supporting tree planting initiatives. Our mission is to create a greener future by facilitating the
@@ -28,19 +34,21 @@ const AboutUs = () => {
                     biodiversity, and improving air and water quality. By planting trees, we can combat deforestation,
                     restore ecosystems, and create sustainable environments for future generations.
                 </p>
-                <img id="leftBlob" src={blob} />
+                <img className="leftBlob" src={blob} />
                 <div className="imageContainer">
-                    <img className="plant" src={plant} />
-                    <img className="plant" src={plant} />
-                    <img className="plant" src={plant} />
+                    <img className="plant" src={plant1} />
+                    <img className="plant" src={plant2} />
+                    <img className="plant" src={plant3} />
                 </div>
             </section>
 
             <section id="coreValues">
-                <h2 className="title">
-                    {' '}
-                    <img id="leftLogo" src={logo} /> Core values <img id="rightLogo" src={logo} />
-                </h2>
+                <img className="left-blob-core-value" src={blob} />
+                <div className="logoTitle">
+                    <img className="leftLogo" src={logo} />
+                    <h2 className="title"> Core values</h2>
+                    <img className="rightLogo" src={logo} />
+                </div>
 
                 <div class="coreValuesContainer">
                     <div className="numBlob">
@@ -56,7 +64,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-
+                <img className="right-blob-core-value" src={blob} />
                 <div class="coreValuesContainer">
                     <div className="numBlob">
                         <img src={numList2} />
@@ -85,14 +93,14 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-
+                <img className="left-blob-core-value" src={blob} />
                 <div class="coreValuesContainer">
                     <div className="numBlob">
                         <img src={numList4} />
                     </div>
 
                     <div>
-                        <h4 className="coreValuesTitle">Get Involved</h4>
+                        <h1 className="coreValuesTitle">Get Involved</h1>
                         <p className="coreValuesContent">
                             We organize volunteering events and provide resources for those who wish to engage in tree
                             planting activities firsthand. Together, we can make a tangible difference.
@@ -106,7 +114,7 @@ const AboutUs = () => {
                     </div>
 
                     <div>
-                        <h4 className="coreValuesTitle">Spread the Word</h4>
+                        <h1 className="coreValuesTitle">Spread the Word</h1>
                         <p className="coreValuesContent">
                             Raise awareness about the importance of reforestation and tree planting. Share your
                             contributions and experiences on social media platforms and encourage others to join the
@@ -114,6 +122,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
+                <img className="right-blob-core-value" src={blob} />
             </section>
         </div>
     );

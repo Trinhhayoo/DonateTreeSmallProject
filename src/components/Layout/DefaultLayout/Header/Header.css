@@ -10,72 +10,106 @@ p {
     margin-top: 0;
 }
 
-.container {
+.hero-banner-container {
+    width: 1440px;
     color: white;
-    width: 100%;
-    display: flex;
+    display: table;
     align-items: center;
-    margin: 30px 51px;
-    gap: 79px;
+    padding: 60px 120px 60px 120px;
+    overflow: hidden;
 }
 .blob {
+    float: left;
     position: relative;
-    padding: 0;
+    width: 574px;
+    height: 510px;
 }
 .blob > img {
-    width: 714px;
-    height: 651px;
-    /* margin: 53.5px 0 53.5px 51px; */
+    width: 574px;
+    height: 510px;
 }
 .centered {
     position: absolute;
-    width: 65%;
+    width: 400px;
     top: 47%;
     left: 50%;
+    margin-left: 10px;
     transform: translate(-50%, -50%);
 }
 
-.button {
-    background-color: #ffffff; /* Green */
-    border: none;
-    border-radius: 15px;
-    color: #5f8d4e;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 #blobTitle {
+    margin-bottom: 20px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
     text-align: left;
     color: #e5d9b6;
 }
 
 #blobContent {
+    margin-bottom: 20px;
     text-align: left;
-    font-weight: 500;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 28px;
     color: #ffffff;
 }
 #earth {
     display: flex;
+    float: right;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    width: 545px;
-    height: 549px;
+    padding-left: 58px;
+    width: 512px;
+    height: 505px;
 }
 #earthImage {
-    width: 456px;
-    height: 469px;
+    width: 394px;
+    height: 405px;
 }
 #earthContent {
     font-weight: 700;
     font-size: 32px;
     text-align: center;
     color: #285430;
+}
+
+@media screen and (max-width: 600px) {
+    .blob {
+        width: 313px;
+        height: 266px;
+        justify-content: center;
+        align-items: center;
+    }
+    .blob > img {
+        width: 313px;
+        height: 266px;
+    }
+    #blobTitle {
+        width: 214px;
+        height: 75px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #blobContent {
+        width: 214px;
+        height: 57px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    #earthImage {
+        width: 284px;
+        height: 277px;
+    }
+    #earthContent {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #earth {
+        width: 284px;
+        height: 314px;
+        justify-content: center;
+        align-items: center;
+    }
 }
