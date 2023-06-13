@@ -11,6 +11,8 @@ import numList5 from '../../../../svg/numList_5.svg';
 import './AboutUs.css';
 
 const AboutUs = () => {
+    // console.log(1);
+    // alert('hi');
     return (
         <div>
             <section id="aboutUs">

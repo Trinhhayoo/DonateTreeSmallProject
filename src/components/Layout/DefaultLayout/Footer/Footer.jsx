@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './Footer.css';
+
 import mail from '../../../../svg/2xmail.svg';
 import locate from '../../../../svg/2xlocate.svg';
 import logo from '../../../../svg/2xlogo.svg';
@@ -15,9 +17,9 @@ const Footer = () => {
                         <div className="divide-container">
                             <div className="logo-foter">
                                 {/* <img className="logo-footer" src={spalgTS} alt="PUN" /> */}
-                                <span>
+                                {/* <span>
                                    <Icon
-                                </span>
+                                </span> */}
 
                                 <h3 className="title-project">GREENGROW</h3>
 
