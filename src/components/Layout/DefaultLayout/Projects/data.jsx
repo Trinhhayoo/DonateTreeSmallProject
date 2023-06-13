@@ -4,7 +4,7 @@ import image3 from '../../../../image/pro2.jpg';
 import image4 from '../../../../image/pro3.jpg';
 import image5 from '../../../../image/pro4.jpg';
 
-export const dataDigitalBestSeller = [
+export const data = [
     {
         id: 1,
         title: 'Trees- Planting Project in Binh Phuoc',
