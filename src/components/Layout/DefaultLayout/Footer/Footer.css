@@ -12,19 +12,7 @@
     justify-content: center;
     position: relative;
     height: 307px;
-}
-
-.inside-container {
-    justify-content: center;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 var(--global-content-edge-padding);
-}
-
-.beauty {
-    position: absolute;
-    left: 45px;
-    bottom: 70px;
+    padding-top: 20px;
 }
 
 .logo-foter {
@@ -34,13 +22,121 @@
 
 .divide-container {
     display: grid;
-    grid-template-columns: 1.5fr 1.2fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1.2fr 2fr;
     justify-content: center;
 
     /* padding-top: 46px; */
     padding-bottom: 0px;
     grid-column-gap: 81px;
     grid-row-gap: 81px;
+}
+
+@media only screen and (max-width: 600px) {
+    .divide-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: unset !important;
+        grid-row-gap: unset !important;
+    }
+
+    .foter {
+        width: 100%;
+        font-size: small;
+        color: white;
+        justify-content: center;
+        position: relative;
+        height: 380px;
+    }
+
+    .logo-footer {
+        width: 13px !important;
+        height: 15px !important;
+        position: unset !important;
+        /* display:inline-block; */
+
+        padding-right: 4px;
+        margin-left: 0px !important;
+    }
+
+    .symbol-footer {
+        top: 20px;
+        /* margin: 0 139px; */
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 24px;
+    }
+
+    .title-project {
+        position: unset !important;
+        font-size: 15px !important;
+        display: inline;
+    }
+
+    .lien-he {
+        margin-left: 20px;
+    }
+
+    .title-foter {
+        /* text-align: center; */
+        padding-bottom: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .address-text {
+        font-size: 14px;
+    }
+
+    .img-dc {
+        width: 13.99px;
+        height: 17.98px !important;
+        /* height: unset !important; */
+    }
+    .img-mail {
+        width: 18px;
+        height: 14.08px !important;
+        /* height: unset !important; */
+    }
+    .each-info {
+        height: 35px;
+    }
+    .Co-Re {
+        margin-left: 20px;
+    }
+    .Company {
+        margin-right: 90px;
+    }
+    .line {
+        margin-top: 65px;
+
+        width: 335px !important;
+    }
+    .bottom-line {
+        position: absolute;
+        margin-top: 80.5px !important;
+        left: 20px !important;
+        width: 335px !important;
+    }
+    .alright-text {
+        bottom: 20px !important;
+    }
+    .img-fb {
+        width: 20.01px !important;
+        height: 19.88px !important;
+        bottom: 34px !important;
+        right: 35px !important;
+    }
+    .img-ig {
+        width: 20.01px !important;
+        height: 19.88px !important;
+        bottom: 34px !important;
+    }
+}
+
+.Co-Re {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .fbic {
@@ -81,7 +177,7 @@
     /* position: absolute; */
     height: 35px;
 
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-right: 10px;
 }
 
@@ -113,6 +209,7 @@
     float: unset !important;
     background-color: unset !important;
 }
+
 .iconnav {
     height: 20px;
 }
@@ -121,41 +218,53 @@
     /* margin-left: 0px; */
     background-color: unset !important;
 }
+
 .line {
     position: absolute;
     height: 1.37px;
     background-color: white;
     width: 1200px;
-    top: 214px;
+    top: 230px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .bottom-line {
     position: absolute;
     bottom: 10px;
     left: 70px;
 }
+
 .title-project {
     font-size: 2em;
     position: absolute;
-    left: 100px;
+    left: 130px !important;
     top: 60px;
 }
+.copyright-ic {
+    z-index: 1000;
+    width: 10px;
+    height: auto;
+}
+
 .each-info {
     float: unset !important;
 }
+
 .logo-footer {
     height: 50px;
     position: absolute;
     top: 80px;
-    left: -20px;
+    left: 10px;
 }
+
 .bottom-line {
     display: flex;
     z-index: 100;
     width: 1200px;
 }
+
 .alright-text {
     width: 215px;
     height: 18px;
@@ -163,6 +272,7 @@
     position: absolute;
     z-index: 100;
 }
+
 .img-fb {
     width: 30px;
     height: 60px;
@@ -171,6 +281,7 @@
     position: absolute;
     z-index: 100;
 }
+
 .img-ig {
     width: 30px;
     height: 60px;
@@ -178,4 +289,22 @@
     right: 9px;
     position: absolute;
     z-index: 100;
+}
+
+.footer-mobile {
+    width: 375px;
+    height: 380px;
+    background-color: #285430;
+    /* width: 100%; */
+    font-size: smaller;
+    color: white;
+    justify-content: center;
+    position: relative;
+}
+h3 {
+    margin-top: auto;
+    margin-bottom: 0;
+    /* font-weight: 500; */
+    line-height: auto;
+    color: auto;
 }

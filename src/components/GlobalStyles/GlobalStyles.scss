@@ -340,3 +340,41 @@ body {
 .slick-next:before {
     right: 50% !important;
 }
+
+// Mobile
+@media (max-width: 739px) {
+    :root {
+        --height-input-file: 30px;
+    }
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn-donate {
+        padding: 5px 0px;
+        gap: 5px;
+
+        width: 73px;
+        height: 34px;
+
+        background: #ffffff;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .title-session {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        text-align: center;
+        padding-top: 25px;
+        color: var(--title-primary-color--);
+    }
+}
