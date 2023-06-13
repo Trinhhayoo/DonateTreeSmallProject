@@ -1,6 +1,6 @@
 .wrapper {
     position: relative;
-    height: 727px;
+    height: 800px;
     background-color: #fff6e7;
 }
 
@@ -25,26 +25,16 @@
 
 .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.chart {
     width: 100%;
-    // height: 580px;
+    // margin-top: 10px;
 }
 .title-achieve {
     margin-bottom: 45px;
 }
-.chartBox {
-    height: 429.739990234375px;
-    // width: 369.739990234375px;
 
-    // height: 230px;
-    // padding: 20px;
-    // border-radius: 20px;
-    // border: solid 3px rgba(255, 26, 104, 1);
-    // background: white;
-}
 .title-chart {
     width: 389px;
     // height: 69px;
@@ -59,6 +49,7 @@
     margin: auto;
     text-shadow: 0px 4px 4px #ffffff;
     padding-bottom: 61px;
+    padding-top: 45px;
 }
 
 .chartMenu {
