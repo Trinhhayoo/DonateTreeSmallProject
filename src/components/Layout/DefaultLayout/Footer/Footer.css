@@ -25,13 +25,13 @@
 
 .divide-container {
   display: grid;
-  grid-template-columns: 1.5fr 1.2fr 2fr;
+  grid-template-columns: 1fr 1fr 2fr;
   justify-content: center;
-
   /* padding-top: 46px; */
   padding-bottom: 0px;
   grid-column-gap: 81px;
   grid-row-gap: 81px;
+  margin: 0 0.1fr !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -77,8 +77,6 @@
     position: unset !important;
     font-size: 15px !important;
     display: inline;
-
-
   }
 
   .lien-he {
@@ -119,34 +117,26 @@ height:14.08px !important;
 .Company {
   margin-right:90px;
 }
-.line {
+ .line {
+  
   
   margin-top: 65px;
+ }
 
-  width: 335px !important;
-}
-.bottom-line {
-  position: absolute;
-  margin-top: 80.5px !important;
-  left: 20px !important;
-  width: 335px !important;
-
-}
-.alright-text {
-  bottom: 20px !important;
-}
 .img-fb {
   width: 20.01px !important;
 height: 19.88px !important;
-bottom: 34px !important;
-right: 35px !important;
+/* bottom: 10px; */
+ bottom: 20px !important;
+/*right: 35px !important; */
 }
+
 .img-ig {
   width: 20.01px !important;
   height: 19.88px !important;
-bottom: 34px !important;
-
+  bottom: 20px !important;
 }
+
 
 }
 
@@ -204,10 +194,6 @@ bottom: 34px !important;
 .img-mail {
   top: 55px;
   height: 25px;
-  /* left: -5px; */
-
-  /* position: absolute; */
-
   margin-bottom: 40px;
   margin-right: 10px;
 }
@@ -253,7 +239,7 @@ bottom: 34px !important;
   position: absolute;
   height: 1.37px;
   background-color: white;
-  width: 1200px;
+  width: 90%;
   top: 230px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -264,7 +250,16 @@ bottom: 34px !important;
 .bottom-line {
   position: absolute;
   bottom: 10px;
-  left: 70px;
+  /* left: 70px; */
+  left: 50%;
+
+  display: inline-block;
+  z-index: 100;
+  width: 90%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
 
 }
 
@@ -293,12 +288,7 @@ bottom: 34px !important;
 
 }
 
-.bottom-line {
-  display: flex;
-  z-index: 100;
-  width: 1200px;
 
-}
 
 .alright-text {
   width: 215px;
