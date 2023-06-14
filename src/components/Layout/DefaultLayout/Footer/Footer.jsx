@@ -9,8 +9,6 @@ import facebook from '../../../../svg/facebook.svg';
 import instagram from '../../../../svg/instagram.svg';
 import copyright from '../../../../image/copyright.png';
 
-import './Footer.css';
-
 const Footer = () => {
     return (
         <div>
